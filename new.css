@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(195, 195, 245);
+  font-size: 1.04rem;
+}
+
+#firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+#firstsection>div {
+  width: 30%;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.buttons {
+  margin-top: 34px;
+}
+
+.buttons button {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: blueviolet;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: blueviolet;
+}
+
+.leftsection {
+  font-size: 1.5rem;
+}
+
+.rightsection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(181, 122, 237);
+}
+
+#element {
+  color: rgb(188, 127, 246);
+}
+
+.about-firstsection>div {
+  width: 100%;
+  padding: 42px;
+  line-height: 0.7cm;
+}
+
+.about-leftsection {
+
+  padding-right: 20px;
+  width: 50%;
+}
+
+.about-firstsection {
+  font-size: large;
+  padding: 0 4px;
+  letter-spacing: 1.5px;
+  display: flex;
+
+  margin: 60px 0;
+}
+
+.about-rightsection {
+  width: 100%;
+  margin-top: 2cm;
+  justify-content: center;
+}
+
+#container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#Project-firstsection>div {
+  width: 89%;
+  padding: 42px;
+}
+
+.Projectt-leftsection {
+  width: 80%;
+  margin-top: 3.5cm;
+  border: 2px solid;
+}
+
+#Project-firstsection {
+  padding: 14px;
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0;
+}
+
+#projects {
+  max-width: 100%;
+}
+
+.Project-leftsection ul li {
+  list-style: none;
+}
+
+.Project-rightsection {
+  width: 80%;
+  margin-top: 2cm;
+}
+
+.Project-rightsection ul li {
+  list-style: none;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1.5px solid #ccc;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: whitesmoke;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+}
+
+.submit-button {
+  width: auto;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: blueviolet;
+}
+
+.bluevoilet {
+  color: rgb(200, 151, 246);
+}
+
+.footer {
+  background-color: rgba(247, 243, 250, 0.363);
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer>div {
+  width: 223px;
+}
+
+.footer-third {
+  flex-basis: 30%;
+  text-align: right;
+}
+
+.footer li {
+  margin-right: 20px;
+}
+
+.footer a {
+  color: rgb(218, 183, 251);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.fab,
+.fas {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 30%;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+footer p {
+  background: #000;
+  font-size: 16px;
+  margin:0 auto;
+}
